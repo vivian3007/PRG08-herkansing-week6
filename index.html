@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+    <title>Week 6 programmeren 8 herkansing</title>
+</head>
+
+<body>
+<div>
+    <h1>Diabetes of toch gezond?</h1>
+    <p>Beantwoord deze vragen om te zien of u diabetes zou kunnen hebben.</p>
+</div>
+    <label>Hoe hoog is de bloedsuikerspiegel in mg/dl?</label>
+        <input type="number" name="glucose" id="glucose">
+    <br>
+    <label>Hoe oud bent u?</label>
+        <input type="number" name="age" id="age" max="110">
+    <br>
+    <label>Wat is uw bmi?</label>
+        <input type="number" name="bmi" id="bmi">
+    <br>
+
+<button id="predictButton">Testen op diabetes</button>
+
+<div id="predict">
+
+</div>
+</body>
+</html>

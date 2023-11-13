@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="train.js" type="module"></script>
+    <title>Week 6 programmeren 8 herkansing</title>
+</head>
+
+<body>
+    <div><h3>Javascript Decision Tree</h3></div>
+    <div id="view"></div>
+    <div id="accuracy">Accuracy : - </div>
+    <div><button id="saveButton">save</button></div>
+    <div>
+        <h4>Confusion Matrix</h4>
+        <table id="confusion">
+            <tr>
+                <td></td>
+                <td>Predicted healthy</td>
+                <td>Predicted diabetic</td>
+            </tr>
+            <tr>
+                <td>Actually healthy</td>
+                <td id="actualHealthy"> - </td>
+                <td id="predictedDiabetic"> - </td>
+            </tr>
+            <tr>
+                <td>Actually diabetic</td>
+                <td id="predictedHealthy"> - </td>
+                <td id="actualDiabetic"> - </td>
+            </tr>`
+        </table>
+    </div>
+</body>
+</html>

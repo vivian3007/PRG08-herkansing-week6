@@ -1,0 +1,705 @@
+{
+  "root": {
+    "attribute": "Glucose",
+    "predicateName": ">=",
+    "pivot": 128,
+    "match": {
+      "attribute": "bmi",
+      "predicateName": ">=",
+      "pivot": 30,
+      "match": {
+        "attribute": "Glucose",
+        "predicateName": ">=",
+        "pivot": 158,
+        "match": {
+          "attribute": "Insulin",
+          "predicateName": ">=",
+          "pivot": 680,
+          "match": {
+            "attribute": "Insulin",
+            "predicateName": ">=",
+            "pivot": 846,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "category": "0"
+            },
+            "matchedCount": 1,
+            "notMatchedCount": 2
+          },
+          "notMatch": {
+            "attribute": "Pedigree",
+            "predicateName": ">=",
+            "pivot": 0.344,
+            "match": {
+              "attribute": "Age",
+              "predicateName": ">=",
+              "pivot": 45,
+              "match": {
+                "attribute": "Pregnant",
+                "predicateName": ">=",
+                "pivot": 7,
+                "match": {
+                  "category": "1"
+                },
+                "notMatch": {
+                  "attribute": "Pregnant",
+                  "predicateName": ">=",
+                  "pivot": 6,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "Insulin",
+                    "predicateName": ">=",
+                    "pivot": 265,
+                    "match": {
+                      "category": "0"
+                    },
+                    "notMatch": {
+                      "category": "1"
+                    },
+                    "matchedCount": 1,
+                    "notMatchedCount": 5
+                  },
+                  "matchedCount": 2,
+                  "notMatchedCount": 6
+                },
+                "matchedCount": 7,
+                "notMatchedCount": 8
+              },
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 15,
+              "notMatchedCount": 42
+            },
+            "notMatch": {
+              "attribute": "bmi",
+              "predicateName": ">=",
+              "pivot": 35.5,
+              "match": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 47.9,
+                "match": {
+                  "attribute": "Skin",
+                  "predicateName": ">=",
+                  "pivot": 43,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 1,
+                  "notMatchedCount": 1
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 2,
+                "notMatchedCount": 13
+              },
+              "notMatch": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 30.9,
+                "match": {
+                  "attribute": "Bp",
+                  "predicateName": ">=",
+                  "pivot": 82,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "Skin",
+                    "predicateName": ">=",
+                    "pivot": 30,
+                    "match": {
+                      "category": "1"
+                    },
+                    "notMatch": {
+                      "attribute": "Age",
+                      "predicateName": ">=",
+                      "pivot": 28,
+                      "match": {
+                        "attribute": "Glucose",
+                        "predicateName": ">=",
+                        "pivot": 179,
+                        "match": {
+                          "attribute": "Glucose",
+                          "predicateName": ">=",
+                          "pivot": 195,
+                          "match": {
+                            "category": "1"
+                          },
+                          "notMatch": {
+                            "category": "0"
+                          },
+                          "matchedCount": 1,
+                          "notMatchedCount": 2
+                        },
+                        "notMatch": {
+                          "category": "1"
+                        },
+                        "matchedCount": 3,
+                        "notMatchedCount": 3
+                      },
+                      "notMatch": {
+                        "category": "0"
+                      },
+                      "matchedCount": 6,
+                      "notMatchedCount": 2
+                    },
+                    "matchedCount": 4,
+                    "notMatchedCount": 8
+                  },
+                  "matchedCount": 2,
+                  "notMatchedCount": 12
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 14,
+                "notMatchedCount": 3
+              },
+              "matchedCount": 15,
+              "notMatchedCount": 17
+            },
+            "matchedCount": 57,
+            "notMatchedCount": 32
+          },
+          "matchedCount": 3,
+          "notMatchedCount": 89
+        },
+        "notMatch": {
+          "attribute": "Bp",
+          "predicateName": ">=",
+          "pivot": 62,
+          "match": {
+            "attribute": "Age",
+            "predicateName": ">=",
+            "pivot": 31,
+            "match": {
+              "attribute": "Pedigree",
+              "predicateName": ">=",
+              "pivot": 0.439,
+              "match": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 38.7,
+                "match": {
+                  "attribute": "Bp",
+                  "predicateName": ">=",
+                  "pivot": 84,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "Pedigree",
+                    "predicateName": ">=",
+                    "pivot": 1.781,
+                    "match": {
+                      "category": "0"
+                    },
+                    "notMatch": {
+                      "category": "1"
+                    },
+                    "matchedCount": 1,
+                    "notMatchedCount": 6
+                  },
+                  "matchedCount": 3,
+                  "notMatchedCount": 7
+                },
+                "notMatch": {
+                  "attribute": "Insulin",
+                  "predicateName": ">=",
+                  "pivot": 342,
+                  "match": {
+                    "attribute": "Pregnant",
+                    "predicateName": ">=",
+                    "pivot": 8,
+                    "match": {
+                      "category": "1"
+                    },
+                    "notMatch": {
+                      "category": "0"
+                    },
+                    "matchedCount": 1,
+                    "notMatchedCount": 1
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 2,
+                  "notMatchedCount": 21
+                },
+                "matchedCount": 10,
+                "notMatchedCount": 23
+              },
+              "notMatch": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 46.1,
+                "match": {
+                  "category": "1"
+                },
+                "notMatch": {
+                  "attribute": "Bp",
+                  "predicateName": ">=",
+                  "pivot": 72,
+                  "match": {
+                    "attribute": "Bp",
+                    "predicateName": ">=",
+                    "pivot": 94,
+                    "match": {
+                      "category": "1"
+                    },
+                    "notMatch": {
+                      "attribute": "Pregnant",
+                      "predicateName": ">=",
+                      "pivot": 9,
+                      "match": {
+                        "category": "0"
+                      },
+                      "notMatch": {
+                        "attribute": "Pedigree",
+                        "predicateName": ">=",
+                        "pivot": 0.402,
+                        "match": {
+                          "category": "1"
+                        },
+                        "notMatch": {
+                          "attribute": "Pedigree",
+                          "predicateName": ">=",
+                          "pivot": 0.338,
+                          "match": {
+                            "category": "0"
+                          },
+                          "notMatch": {
+                            "attribute": "Pedigree",
+                            "predicateName": ">=",
+                            "pivot": 0.27,
+                            "match": {
+                              "category": "1"
+                            },
+                            "notMatch": {
+                              "attribute": "Bp",
+                              "predicateName": ">=",
+                              "pivot": 90,
+                              "match": {
+                                "category": "1"
+                              },
+                              "notMatch": {
+                                "attribute": "Glucose",
+                                "predicateName": ">=",
+                                "pivot": 145,
+                                "match": {
+                                  "attribute": "Pedigree",
+                                  "predicateName": ">=",
+                                  "pivot": 0.235,
+                                  "match": {
+                                    "category": "1"
+                                  },
+                                  "notMatch": {
+                                    "category": "0"
+                                  },
+                                  "matchedCount": 2,
+                                  "notMatchedCount": 1
+                                },
+                                "notMatch": {
+                                  "category": "0"
+                                },
+                                "matchedCount": 3,
+                                "notMatchedCount": 5
+                              },
+                              "matchedCount": 1,
+                              "notMatchedCount": 8
+                            },
+                            "matchedCount": 2,
+                            "notMatchedCount": 9
+                          },
+                          "matchedCount": 2,
+                          "notMatchedCount": 11
+                        },
+                        "matchedCount": 1,
+                        "notMatchedCount": 13
+                      },
+                      "matchedCount": 4,
+                      "notMatchedCount": 14
+                    },
+                    "matchedCount": 2,
+                    "notMatchedCount": 18
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 20,
+                  "notMatchedCount": 2
+                },
+                "matchedCount": 5,
+                "notMatchedCount": 22
+              },
+              "matchedCount": 33,
+              "notMatchedCount": 27
+            },
+            "notMatch": {
+              "attribute": "Insulin",
+              "predicateName": ">=",
+              "pivot": 270,
+              "match": {
+                "category": "0"
+              },
+              "notMatch": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 42.1,
+                "match": {
+                  "attribute": "Glucose",
+                  "predicateName": ">=",
+                  "pivot": 147,
+                  "match": {
+                    "attribute": "Pedigree",
+                    "predicateName": ">=",
+                    "pivot": 0.375,
+                    "match": {
+                      "category": "0"
+                    },
+                    "notMatch": {
+                      "category": "1"
+                    },
+                    "matchedCount": 2,
+                    "notMatchedCount": 2
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 4,
+                  "notMatchedCount": 4
+                },
+                "notMatch": {
+                  "attribute": "Pedigree",
+                  "predicateName": ">=",
+                  "pivot": 1.182,
+                  "match": {
+                    "category": "1"
+                  },
+                  "notMatch": {
+                    "attribute": "Pedigree",
+                    "predicateName": ">=",
+                    "pivot": 0.591,
+                    "match": {
+                      "category": "0"
+                    },
+                    "notMatch": {
+                      "attribute": "Pedigree",
+                      "predicateName": ">=",
+                      "pivot": 0.542,
+                      "match": {
+                        "category": "1"
+                      },
+                      "notMatch": {
+                        "attribute": "Pregnant",
+                        "predicateName": ">=",
+                        "pivot": 5,
+                        "match": {
+                          "category": "1"
+                        },
+                        "notMatch": {
+                          "attribute": "Pregnant",
+                          "predicateName": ">=",
+                          "pivot": 1,
+                          "match": {
+                            "category": "0"
+                          },
+                          "notMatch": {
+                            "attribute": "Bp",
+                            "predicateName": ">=",
+                            "pivot": 78,
+                            "match": {
+                              "category": "0"
+                            },
+                            "notMatch": {
+                              "attribute": "bmi",
+                              "predicateName": ">=",
+                              "pivot": 34.3,
+                              "match": {
+                                "category": "1"
+                              },
+                              "notMatch": {
+                                "category": "0"
+                              },
+                              "matchedCount": 2,
+                              "notMatchedCount": 1
+                            },
+                            "matchedCount": 3,
+                            "notMatchedCount": 3
+                          },
+                          "matchedCount": 7,
+                          "notMatchedCount": 6
+                        },
+                        "matchedCount": 1,
+                        "notMatchedCount": 13
+                      },
+                      "matchedCount": 2,
+                      "notMatchedCount": 14
+                    },
+                    "matchedCount": 5,
+                    "notMatchedCount": 16
+                  },
+                  "matchedCount": 2,
+                  "notMatchedCount": 21
+                },
+                "matchedCount": 8,
+                "notMatchedCount": 23
+              },
+              "matchedCount": 9,
+              "notMatchedCount": 31
+            },
+            "matchedCount": 60,
+            "notMatchedCount": 40
+          },
+          "notMatch": {
+            "attribute": "Age",
+            "predicateName": ">=",
+            "pivot": 41,
+            "match": {
+              "attribute": "Pregnant",
+              "predicateName": ">=",
+              "pivot": 13,
+              "match": {
+                "category": "1"
+              },
+              "notMatch": {
+                "category": "0"
+              },
+              "matchedCount": 1,
+              "notMatchedCount": 1
+            },
+            "notMatch": {
+              "category": "1"
+            },
+            "matchedCount": 2,
+            "notMatchedCount": 13
+          },
+          "matchedCount": 100,
+          "notMatchedCount": 15
+        },
+        "matchedCount": 92,
+        "notMatchedCount": 115
+      },
+      "notMatch": {
+        "attribute": "Glucose",
+        "predicateName": ">=",
+        "pivot": 146,
+        "match": {
+          "attribute": "Age",
+          "predicateName": ">=",
+          "pivot": 27,
+          "match": {
+            "attribute": "Age",
+            "predicateName": ">=",
+            "pivot": 63,
+            "match": {
+              "category": "0"
+            },
+            "notMatch": {
+              "attribute": "bmi",
+              "predicateName": ">=",
+              "pivot": 27.4,
+              "match": {
+                "attribute": "Pedigree",
+                "predicateName": ">=",
+                "pivot": 0.434,
+                "match": {
+                  "category": "0"
+                },
+                "notMatch": {
+                  "attribute": "Bp",
+                  "predicateName": ">=",
+                  "pivot": 84,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "Pregnant",
+                    "predicateName": ">=",
+                    "pivot": 7,
+                    "match": {
+                      "category": "0"
+                    },
+                    "notMatch": {
+                      "category": "1"
+                    },
+                    "matchedCount": 1,
+                    "notMatchedCount": 7
+                  },
+                  "matchedCount": 3,
+                  "notMatchedCount": 8
+                },
+                "matchedCount": 4,
+                "notMatchedCount": 11
+              },
+              "notMatch": {
+                "attribute": "Glucose",
+                "predicateName": ">=",
+                "pivot": 152,
+                "match": {
+                  "category": "1"
+                },
+                "notMatch": {
+                  "category": "0"
+                },
+                "matchedCount": 11,
+                "notMatchedCount": 1
+              },
+              "matchedCount": 15,
+              "notMatchedCount": 12
+            },
+            "matchedCount": 4,
+            "notMatchedCount": 27
+          },
+          "notMatch": {
+            "category": "0"
+          },
+          "matchedCount": 31,
+          "notMatchedCount": 4
+        },
+        "notMatch": {
+          "attribute": "Insulin",
+          "predicateName": ">=",
+          "pivot": 135,
+          "match": {
+            "category": "0"
+          },
+          "notMatch": {
+            "attribute": "bmi",
+            "predicateName": ">=",
+            "pivot": 28.3,
+            "match": {
+              "attribute": "Glucose",
+              "predicateName": ">=",
+              "pivot": 136,
+              "match": {
+                "attribute": "bmi",
+                "predicateName": ">=",
+                "pivot": 28.7,
+                "match": {
+                  "category": "0"
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 2,
+                "notMatchedCount": 1
+              },
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 3,
+              "notMatchedCount": 2
+            },
+            "notMatch": {
+              "attribute": "Bp",
+              "predicateName": ">=",
+              "pivot": 74,
+              "match": {
+                "category": "0"
+              },
+              "notMatch": {
+                "attribute": "Pedigree",
+                "predicateName": ">=",
+                "pivot": 0.472,
+                "match": {
+                  "category": "0"
+                },
+                "notMatch": {
+                  "attribute": "Pregnant",
+                  "predicateName": ">=",
+                  "pivot": 6,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "bmi",
+                    "predicateName": ">=",
+                    "pivot": 23.8,
+                    "match": {
+                      "category": "1"
+                    },
+                    "notMatch": {
+                      "category": "0"
+                    },
+                    "matchedCount": 3,
+                    "notMatchedCount": 1
+                  },
+                  "matchedCount": 2,
+                  "notMatchedCount": 4
+                },
+                "matchedCount": 3,
+                "notMatchedCount": 6
+              },
+              "matchedCount": 14,
+              "notMatchedCount": 9
+            },
+            "matchedCount": 5,
+            "notMatchedCount": 23
+          },
+          "matchedCount": 13,
+          "notMatchedCount": 28
+        },
+        "matchedCount": 35,
+        "notMatchedCount": 41
+      },
+      "matchedCount": 207,
+      "notMatchedCount": 76
+    },
+    "notMatch": {
+      "attribute": "Age",
+      "predicateName": ">=",
+      "pivot": 29,
+      "match": {
+        "attribute": "bmi",
+        "predicateName": ">=",
+        "pivot": 26.5,
+        "match": {
+          "attribute": "Glucose",
+          "predicateName": ">=",
+          "pivot": 100,
+          "match": {
+            "attribute": "Pedigree",
+            "predicateName": ">=",
+            "pivot": 0.565,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "category": "0"
+            },
+            "matchedCount": 34,
+            "notMatchedCount": 84
+          },
+          "notMatch": {
+            "category": "0"
+          },
+          "matchedCount": 118,
+          "notMatchedCount": 55
+        },
+        "notMatch": {
+          "category": "0"
+        },
+        "matchedCount": 173,
+        "notMatchedCount": 41
+      },
+      "notMatch": {
+        "category": "0"
+      },
+      "matchedCount": 214,
+      "notMatchedCount": 271
+    },
+    "matchedCount": 283,
+    "notMatchedCount": 485
+  }
+}
